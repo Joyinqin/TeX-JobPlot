@@ -1,4 +1,4 @@
-\documentclass[UTF8,a4paper,12pt]{ctexart}
+\documentclass[UTF8,a4paper,12pt]{ctexbook}
 
 %设置页边距
 \usepackage{geometry}
@@ -11,7 +11,7 @@
 %设置中文字体
 \usepackage{xeCJK}
 %\CJKfamily{song}
-\setCJKfamilyfont{st}{宋体}
+%\setCJKfamilyfont{st}{宋体}
 \newcommand{\st}{\CJKfamily{st}}
 
 %设置字体大小
@@ -23,12 +23,30 @@
 \setlength{\baselineskip}{20pt}
 
 \usepackage{titlesec}
-\setcounter{secnumdepth}{5}
-\titleformat{\section}[block]{\LARGE\bfseries\centering}{}{1em}{}
+%\setcounter{secnumdepth}{4}
+\titleformat{\chapter}[block]{\LARGE\bfseries\centering}{}{1em}{}
+\titleformat{\section}[block]{\Large\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}[block]{\Large\bfseries}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}[block]{\Large\bfseries}{\thesubsubsection}{1em}{}
-\titleformat{\paragragh}[block]{\large\bfseries}{\theparagragh}{1em}{}
-\titleformat{\subparagragh}[block]{\large\bfseries}{\thesubparagraph}{1em}{}
+%\titleformat{\subsubsection}[block]{\large\bfseries}{\thesubsubsection}{1em}{}
+%\titleformat{\paragragh}[block]{\large\bfseries}{\theparagraph}{1em}{}
+%\titleformat{\subparagragh}[block]{\large\bfseries}{\thesubparagraph}{1em}{}
+
+%插入图片
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+%设置页眉页脚页码
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}% 清除原样式
+\fancyhead[CO]{电子科技大学学士学位论文}
+\fancyhead[CE]{你好}
+\cfoot{\thepage}
+
+%插入伪代码
+\usepackage{algorithm, algorithmic}
+\usepackage{algpseudocode}  
+\usepackage{amsmath}  
 
 \begin{document}
 %单倍行距
@@ -38,6 +56,7 @@
 	\include{chap/abstract}
 	\include{chap/chap1}
 	\include{chap/chap2}
+	\include{chap/chap3}
 	
 	\include{bib}
 	

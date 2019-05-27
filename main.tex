@@ -1,0 +1,33 @@
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+
+%设置页边距
+\usepackage{geometry}
+\geometry{left=30mm,right=30mm,top=30mm,bottom=30mm}
+
+%设置英文字体
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+%设置中文字体
+\usepackage{xeCJK}
+%\CJKfamily{song}
+\setCJKfamilyfont{st}{宋体}
+\newcommand{\st}{\CJKfamily{st}}
+
+%设置字体大小
+%\usepackage{type1cm}
+%\fontsize{12pt}{}
+
+%设置行间距
+\usepackage{setspace}
+\setlength{\baselineskip}{20pt}
+
+\begin{document}
+%单倍行距
+%\begin{spacing}{1.0}%%
+
+	
+	\include{chap/abstract}
+	\include{chap/chap1}
+	
+\end{document}

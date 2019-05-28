@@ -2,30 +2,78 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {第三章\hspace  {.3em}}第三章\hskip 1em\relax 系统设计与实现}{13}\protected@file@percent }
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}项目意义}{13}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}设计思路}{13}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}主要任务}{13}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}关键问题的解决方法}{13}\protected@file@percent }
 \@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Huge data file reade}}{14}\protected@file@percent }
 \newlabel{alg-1}{{1}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}技术栈}{15}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}模块设计}{16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}总览曲线(Level-0)}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces 记录过于密集的曲线}}{17}\protected@file@percent }
+\newlabel{pic-1}{{3.1}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces 优化后曲线视图}}{18}\protected@file@percent }
+\newlabel{pic-2}{{3.2}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}节点异常检测(Level-1)}{18}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 树形节点结构图}}{18}\protected@file@percent }
+\newlabel{pic-3}{{3.3}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces 设计展示}}{19}\protected@file@percent }
+\newlabel{fig-4}{{3.4}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 旭日图模型}}{20}\protected@file@percent }
+\newlabel{pic-4}{{3.5}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}时序性展示(Level-2)}{20}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces 日历图模型}}{21}\protected@file@percent }
+\newlabel{fig-5}{{3.6}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}模块实现}{21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}客户端与服务端的搭建}{21}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.1}配置前后端服务器}{22}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces 连接成功}}{23}\protected@file@percent }
+\newlabel{pic-6}{{3.7}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}总览曲线(Level-0)}{23}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.2}挂载服务器app}{23}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.3}测试vue渲染DOM元素}{23}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces 测试结果}}{24}\protected@file@percent }
+\newlabel{pic-7}{{3.8}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}分时任务调度展示(Level-1)}{24}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.4}管道实现聚合查询}{25}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces 入口视图效果图}}{26}\protected@file@percent }
+\newlabel{pic-8}{{3.9}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}具体节点参数展示(Level-2)}{26}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.5}格式化row data}{26}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces 力导向图效果图}}{27}\protected@file@percent }
+\newlabel{pic-9}{{3.10}{27}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.6}基于D3关于svg图形的实现}{27}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.7}基于vuex对数据的集中式管理}{28}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.8}构造父子节点结构数据}{29}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces 旭日图效果图}}{30}\protected@file@percent }
+\newlabel{pic-91}{{3.11}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}时序性展示(Level-2)}{30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces 日历图效果图}}{30}\protected@file@percent }
+\newlabel{pic-10}{{3.12}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.6}交互实现}{31}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.9}state层级结构}{31}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.10}mutations层级结构}{32}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.11}actions层级结构}{32}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}性能测试与评估}{33}\protected@file@percent }
 \@setckpt{chap/chap3}{
-\setcounter{page}{16}
+\setcounter{page}{34}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
-\setcounter{footnote}{0}
+\setcounter{footnote}{1}
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{3}
-\setcounter{section}{1}
-\setcounter{subsection}{2}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{12}
 \setcounter{table}{0}
-\setcounter{float@type}{8}
+\setcounter{float@type}{16}
 \setcounter{algorithm}{1}
 \setcounter{ALC@unique}{0}
 \setcounter{ALC@line}{0}
@@ -39,4 +87,6 @@
 \setcounter{ALG@storecount}{0}
 \setcounter{ALG@tmpcounter}{0}
 \setcounter{parentequation}{0}
+\setcounter{lstnumber}{12}
+\setcounter{lstlisting}{11}
 }

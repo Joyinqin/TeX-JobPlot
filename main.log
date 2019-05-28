@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.22)  28 MAY 2019 01:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.22)  28 MAY 2019 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,92 +654,122 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count301
+\lst@gtempboxa=\box60
+\lst@token=\toks26
+\lst@length=\count302
+\lst@currlwidth=\dimen256
+\lst@column=\count303
+\lst@pos=\count304
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
+\lst@newlines=\count305
+\lst@lineno=\count306
+\lst@maxwidth=\dimen259
+
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count307
+\lst@skipnumbers=\count308
+\lst@framebox=\box61
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count309
+\l__xeCJK_listings_flag_int=\count310
 ) (./main.aux
 (./chap/abstract.aux) (./chap/chap1.aux) (./chap/chap2.aux) (./chap/chap3.aux)
 (./bib.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 51.
+LaTeX Info: Redefining \selectfont on input line 54.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 51.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 51.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 51.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 51.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 51.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 51.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 51.
-LaTeX Font Info:    Redeclaring math accent \check on input line 51.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 51.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 51.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 51.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 54.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 54.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 54.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 54.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 54.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 54.
+LaTeX Font Info:    Redeclaring math accent \check on input line 54.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 54.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 54.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 51.
+(Font)              `operators' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 5
-1.
+4.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 51.
+(Font)              `operators' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-51.
+54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 51.
+input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 51.
+ 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 51.
+ 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 51.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 51.
+ input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 51.
+ne 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 51.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 54.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -775,6 +805,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count311
 \openout2 = `chap/abstract.aux'.
 
 (./chap/abstract.tex
@@ -824,26 +855,90 @@ Underfull \vbox (badness 1648) has occurred while \output is active []
 
 ]
 第三章
-[13]) [14] [15]
+[13] [14] [15] [16]
+File: figures/pic-1.png Graphic file (type bmp)
+<figures/pic-1.png>
+File: figures/pic-2.png Graphic file (type bmp)
+<figures/pic-2.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+File: figures/pic-3.png Graphic file (type bmp)
+<figures/pic-3.png>
+ [18]
+File: figures/4.pdf Graphic file (type pdf)
+<use figures/4.pdf>
+File: figures/pic-4.png Graphic file (type bmp)
+<figures/pic-4.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19]
+File: figures/pic-5.png Graphic file (type bmp)
+<figures/pic-5.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20] [21] (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+Missing character: There is no ␣ in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+Missing character: There is no ␣ in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+File: figures/pic-6.png Graphic file (type bmp)
+<figures/pic-6.png>
+ [22]
+[23]
+File: figures/pic-7.png Graphic file (type bmp)
+<figures/pic-7.png>
+ [24]
+File: figures/6.pdf Graphic file (type pdf)
+<use figures/6.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25] [26]
+File: figures/pic-8.png Graphic file (type bmp)
+<figures/pic-8.png>
+ [27] [28]
+File: figures/pic-9.png Graphic file (type bmp)
+<figures/pic-9.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29]
+File: figures/pic-10.png Graphic file (type bmp)
+<figures/pic-10.png>
+ [30]
+Overfull \hbox (20.64615pt too wide) in paragraph at lines 512--513
+\TU/SimSun(0)/m/n/12 过 程。|  首 先 在 原 曲 线 组 件 代 码 中 增 添 点 击 事 件，|  事 件 中 全 局 调 用 
+\TU/TimesNewRoman(0)/m/n/12 vuex\TU/SimSun(0)/m/n/12 ，|  将 \TU/TimesNewRoman(0)
+/m/n/12 vuex.$store.state
+ []
+
+[31] [32]) [33]
 \openout2 = `bib.aux'.
 
- (./bib.tex [16
+ (./bib.tex [34
 
 
 
-] [17]) [18] (./main.aux (./chap/abstract.aux)
-(./chap/chap1.aux) (./chap/chap2.aux) (./chap/chap3.aux) (./bib.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [35]) [36] (./main.aux (./chap/abstract.aux)
+(./chap/chap1.aux) (./chap/chap2.aux) (./chap/chap3.aux) (./bib.aux)) ) 
 Here is how much of TeX's memory you used:
- 18906 strings out of 492922
- 429681 string characters out of 6136751
- 487250 words of memory out of 5000000
- 22720 multiletter control sequences out of 15000+600000
+ 20396 strings out of 492922
+ 453235 string characters out of 6136751
+ 712552 words of memory out of 5000000
+ 24175 multiletter control sequences out of 15000+600000
  536612 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,10n,79p,1146b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,79p,1146b,1612s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (18 pages).
+Output written on main.pdf (36 pages).

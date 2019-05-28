@@ -1,4 +1,5 @@
-\documentclass[UTF8,a4paper,12pt]{ctexbook}
+\documentclass[UTF8,a4paper,12pt,openany]{ctexbook}
+%\documentclass[bachelor]{uestcthesis}
 
 %设置页边距
 \usepackage{geometry}
@@ -24,12 +25,17 @@
 
 \usepackage{titlesec}
 %\setcounter{secnumdepth}{4}
-\titleformat{\chapter}[block]{\LARGE\bfseries\centering}{}{1em}{}
+\titleformat{\chapter}{\centering\Huge\bfseries}{第\,\thechapter\,章}{1em}{}
+%\titleformat{\chapter}[block]{\LARGE\bfseries\centering}{}{1em}{}
+
+\usepackage{titletoc}
+\titlecontents{chapter}[0pt]{\addvspace{1.5pt}\filright\bf}%
+{\contentspush{第\thecontentslabel\ 章\quad}}%
+{}{\titlerule*[8pt]{.}\contentspage}
+
 \titleformat{\section}[block]{\Large\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}[block]{\Large\bfseries}{\thesubsection}{1em}{}
-%\titleformat{\subsubsection}[block]{\large\bfseries}{\thesubsubsection}{1em}{}
-%\titleformat{\paragragh}[block]{\large\bfseries}{\theparagraph}{1em}{}
-%\titleformat{\subparagragh}[block]{\large\bfseries}{\thesubparagraph}{1em}{}
+
 
 %插入图片
 \usepackage{graphicx}
@@ -40,16 +46,55 @@
 \pagestyle{fancy}
 \fancyhead{}% 清除原样式
 \fancyhead[CO]{电子科技大学学士学位论文}
-\fancyhead[CE]{你好}
+\fancyhead[CE]{\leftmark}
 \cfoot{\thepage}
 
 %插入伪代码
 \usepackage{algorithm, algorithmic}
 \usepackage{algpseudocode}  
 \usepackage{amsmath}  
-
 \usepackage{listings}
 
+%修改参考文献标号样式
+\usepackage[numbers,sort&compress]{natbib}
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+
+%修改脚注样式
+\usepackage{pifont}
+\usepackage[perpage,symbol*]{footmisc}
+\DefineFNsymbols{circled}{{\ding{192}}{\ding{193}}{\ding{194}}{\ding{195}}{\ding{196}}{\ding{197}}{\ding{198}}{\ding{199}}{\ding{200}}{\ding{201}}}
+\setfnsymbol{circled}
+
+\pagestyle{fancy}
+
+
+%设置标题段前后间距
+\usepackage{titlesec}
+\titlespacing{\chapter}{}{24pt}{18pt}{}
+\titlespacing{\section}{}{18pt}{6pt}{}
+\titlespacing{\subsection}{}{12pt}{6pt}{}
+\titlespacing{\subsubsection}{}{12pt}{6pt}{}
+
+%定制目录
+\usepackage{titletoc}
+\titlecontents{chapter}
+[0]
+{\normalsize\heiti}%
+{}%
+{}%
+{\titlerule*[0.5pc]{$\cdot$}\contentspage\hspace*{0cm}}
+\titlecontents{section}
+[3.75em]
+{\normalsize}%
+{\contentslabel{2.5em}}%
+{}%
+{\titlerule*[0.5pc]{$\cdot$}\contentspage\hspace*{0cm}}%
+\titlecontents{subsection}
+[4.75em]
+{}%
+{\contentslabel{2.5em}}%
+{}%
+{\titlerule*[0.5pc]{$\cdot$}\contentspage\hspace*{0cm}}
 
 \begin{document}
 %单倍行距
@@ -57,10 +102,16 @@
 
 	
 	\include{chap/abstract}
+	
+
+	\tableofcontents
+
+	
 	\include{chap/chap1}
 	\include{chap/chap2}
 	\include{chap/chap3}
-	
+	\include{chap/chap4}
 	\include{bib}
+	\include{trans}
 	
 \end{document}

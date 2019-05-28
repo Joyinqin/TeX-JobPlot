@@ -1,0 +1,42 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪\ 论}{1}% 
+\contentsline {section}{\numberline {1.1}研究工作的背景与意义}{1}% 
+\contentsline {section}{\numberline {1.2}本文的主要贡献与创新}{1}% 
+\contentsline {section}{\numberline {1.3}本论文的结构安排}{2}% 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}项目意义及背景介绍}{3}% 
+\contentsline {section}{\numberline {2.1}项目意义}{3}% 
+\contentsline {subsection}{\numberline {2.1.1}电商集群的规模化}{3}% 
+\contentsline {subsection}{\numberline {2.1.2}故障问题及手段}{4}% 
+\contentsline {subsection}{\numberline {2.1.3}设计优势}{4}% 
+\contentsline {section}{\numberline {2.2}项目背景及相关理论}{4}% 
+\contentsline {subsection}{\numberline {2.2.1}研究现状}{4}% 
+\contentsline {subsection}{\numberline {2.2.2}数据可视化}{5}% 
+\contentsline {subsection}{\numberline {2.2.3}电子商务分布式任务调度}{5}% 
+\contentsline {subsection}{\numberline {2.2.4}数据集分析}{6}% 
+\contentsline {section}{\numberline {2.3}关键问题}{7}% 
+\contentsline {subsection}{\numberline {2.3.1}数据处理}{7}% 
+\contentsline {subsection}{\numberline {2.3.2}集群表示及定位故障源}{8}% 
+\contentsline {subsection}{\numberline {2.3.3}故障域算法}{8}% 
+\contentsline {subsection}{\numberline {2.3.4}时序性及空间性}{9}% 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系统设计与实现}{10}% 
+\contentsline {section}{\numberline {3.1}设计思路}{10}% 
+\contentsline {subsection}{\numberline {3.1.1}主要任务}{10}% 
+\contentsline {subsection}{\numberline {3.1.2}关键问题的解决方法}{10}% 
+\contentsline {subsection}{\numberline {3.1.3}技术栈}{12}% 
+\contentsline {section}{\numberline {3.2}模块设计}{13}% 
+\contentsline {subsection}{\numberline {3.2.1}总览曲线(Level-0)}{14}% 
+\contentsline {subsection}{\numberline {3.2.2}节点异常检测(Level-1)}{15}% 
+\contentsline {subsection}{\numberline {3.2.3}时序性展示(Level-2)}{17}% 
+\contentsline {section}{\numberline {3.3}模块实现}{18}% 
+\contentsline {subsection}{\numberline {3.3.1}客户端与服务端的搭建}{18}% 
+\contentsline {subsection}{\numberline {3.3.2}总览曲线(Level-0)}{20}% 
+\contentsline {subsection}{\numberline {3.3.3}分时任务调度展示(Level-1)}{21}% 
+\contentsline {subsection}{\numberline {3.3.4}具体节点参数展示(Level-2)}{23}% 
+\contentsline {subsection}{\numberline {3.3.5}时序性展示(Level-2)}{27}% 
+\contentsline {subsection}{\numberline {3.3.6}交互实现}{28}% 
+\contentsline {section}{\numberline {3.4}性能测试与评估}{30}% 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}课题结论与改进}{33}% 
+\contentsline {section}{\numberline {4.1}实验结论}{33}% 
+\contentsline {section}{\numberline {4.2}实验改进思路}{34}% 
+\contentsline {subsection}{\numberline {4.2.1}硬件改进}{34}% 
+\contentsline {subsection}{\numberline {4.2.2}方法改进}{34}% 
+\contentsfinish 
